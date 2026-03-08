@@ -1,3 +1,5 @@
+[![Build & Deploy Odoo](https://github.com/3bdalla3adil/odoo-k8s-setup/actions/workflows/deploy.yaml/badge.svg)](https://github.com/3bdalla3adil/odoo-k8s-setup/actions/workflows/deploy.yaml)
+
 # Odoo on Kubernetes — Odoo.sh Feature Parity
 
 Complete production-ready Kubernetes deployment of Odoo 17 replicating Odoo.sh features.
@@ -33,3 +35,4 @@ Complete production-ready Kubernetes deployment of Odoo 17 replicating Odoo.sh f
 ```bash
 docker build -t your-registry.io/odoo-custom:17.0 -f docker/Dockerfile .
 docker push your-registry.io/odoo-custom:17.0
+
